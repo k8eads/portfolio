@@ -1,0 +1,33 @@
+
+main{
+    padding: 0rem 5rem;
+}
+
+.hero-section{
+    padding-top: 15rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+
+}
+
+.btn{
+    text-align: left;
+}
+
+.experience, .about, .skills{
+    padding-top: 5rem;
+    height:100vh;
+}
+
+.skills{
+    height: 50vh;
+}
+.experience-container{
+    height: 75vh;
+    overflow-y: scroll;
+}
+
+
+  
+  
