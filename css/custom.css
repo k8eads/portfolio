@@ -28,6 +28,9 @@ main{
     overflow-y: scroll;
 }
 
+.box {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
-  
-  
