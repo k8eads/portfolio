@@ -1,29 +1,30 @@
 
-main{
+main {
     padding: 0rem 5rem;
 }
 
-.hero-section{
-    padding-top: 15rem;
+.hero-section {
+    /* padding-top: 15rem; */
     display:grid;
     grid-template-columns: 1fr 1fr;
     height: 100vh;
-
+    align-items: center;
 }
 
 .btn{
     text-align: left;
 }
 
-.experience, .about, .skills{
+.experience, .about {
     padding-top: 5rem;
-    height:100vh;
+    height: 100vh;
 }
 
-.skills{
+.skills, .hightlighted-events, .highlighted-works {
+    padding-top: 3rem;
     height: 50vh;
 }
-.experience-container{
+.experience-container {
     height: 75vh;
     overflow-y: scroll;
 }
