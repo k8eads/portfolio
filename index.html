@@ -31,7 +31,9 @@
                     
                     <h1 class="display-1">Lorem ipsum dolor sit amet consectetur adipiscing elit.</h1>
                     <h2>Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. </h2>
-                    <button class="btn btn-primary" type="button" href="">Download CV</button>
+                    <a href="media/pdf/CV.pdf" download="Eads CV">
+                      <button class="btn btn-primary" type="button">Download CV</button>
+                    </a>
                 </div>
                 <div class="hero-media">
     
@@ -44,19 +46,19 @@
                         <div class="col-4">
                           <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
                             <nav class="nav nav-pills flex-column">
-                              <a class="nav-link" href="#item-1">Positions Held</a>
+                              <a class="nav-link" href="#pos">Positions Held</a>
                               <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ms-3 my-1" href="#item-1-1">Recording Engineer</a>
-                                <a class="nav-link ms-3 my-1" href="#item-1-2">Head Audio/Lighting Technician</a>
-                                <a class="nav-link ms-3 my-1" href="#item-1-3">Production Intern</a>
+                                <a class="nav-link ms-3 my-1" href="#pos-1">Recording Engineer</a>
+                                <a class="nav-link ms-3 my-1" href="#pos-2">Head Audio/Lighting Technician</a>
+                                <a class="nav-link ms-3 my-1" href="#pos-3">Event Production Intern</a>
                               </nav>
-                              <a class="nav-link" href="#item-2">Item 2</a>
-                              <a class="nav-link" href="#item-3">Education</a>
+                              <a class="nav-link" href="#edu">Education</a>
                               <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ms-3 my-1" href="#item-3-1">Activities</a>
-                                <a class="nav-link ms-5 my-1" href="#item-3-1-1">KURE 88.5 Ames Alternative</a>
-                                <a class="nav-link ms-5 my-1" href="#item-3-1-2">GROOVE Drumline Club</a>
-                                <a class="nav-link ms-5 my-1" href="#item-3-1-3">ISUCF'V'MB</a>
+                                <a class="nav-link ms-3 my-1" href="#involve">Involvement</a>
+                                <a class="nav-link ms-5 my-1" href="#involve-1">KURE 88.5 Ames Alternative</a>
+                                <a class="nav-link ms-5 my-1" href="#involve-2">GROOVE Drumline Club</a>
+                                <a class="nav-link ms-5 my-1" href="#involve-3">LASCASTLE Committee</a>
+                                <a class="nav-link ms-5 my-1" href="#involve-4">ISUCF'V'MB</a>
                               </nav>
                             </nav>
                           </nav>
@@ -64,49 +66,96 @@
 
                     <div class="col-8 experience-container">
                       <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
-                        <div id="item-1">
-                          <h4>Positions Held</h4>
-                          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.
+                        <div id="pos">
+                          <h2>Positions Held</h2>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            
+                          </p>
+                        
+                          <div class="entry" id="pos-1">
+                              <h3 class="title">Recording Engineer</h3>
+                              <div class="box">
+                                <h5 class="company">Iowa State Department of Music and Theatre</h5>
+                                <h5 class="date"> Aug 2021 - June 2025</h5>
+                              </div>
+                              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                          </div>
+                          <div class="entry" id="pos-2">
+                              <h3 class="title">Head Audio/Lighting Technician</h3>
+                              <div class="box">
+                                <h5 class="company">The Maintenance Shop, ISU Memorial Union </h5>
+                                <h5 class="date"> Sept 2023 - June 2025</h5>
+                              </div>
+                              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                          </div>
+                          <div class="entry" id="pos-3">
+                              <h3 class="title">Event Production Intern</h3>
+                              <div class="box">
+                                <h5 class="company">Pinnacle Recording and Productions</h5>
+                                <h5 class="date"> May 2024 - Sept 2024</h5>
+                              </div>
+                              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                          </div>
+                        </div>                
 
-                            Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible. Multiple visible scrollspy targets at the same time may cause some issues.</p>
-                        </div>
-                        <div class="entry" id="item-1-1">
-                            <h5 class="title">Recording Engineer</h5>
-                            <div class="box">
-                              <h6 class="company">Iowa State Department of Music and Theatre</h6>
-                              <h6 class="date"> Aug 2021 - June 25</h6>
-                            </div>
-                            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        </div>
-                        <div id="item-1-2">
-                          <h5>Item 1-2</h5>
-                          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.
-
-                            Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible. Multiple visible scrollspy targets at the same time may cause some issues.</p>
-                        </div>
-                        <div id="item-2">
-                          <h4>Item 2</h4>
-                          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.
-
-                            Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible. Multiple visible scrollspy targets at the same time may cause some issues.</p>
-                        </div>
-                        <div id="item-3">
-                          <h4>Education</h4>
-                          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.
-
-                            Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible. Multiple visible scrollspy targets at the same time may cause some issues.</p>
-                        </div>
-                        <div id="item-3-1">
-                          <h5>Activities</h5>
-                          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.
-
-                            Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible. Multiple visible scrollspy targets at the same time may cause some issues.</p>
-                        </div>
-                        <div id="item-3-2">
-                          <h5>Item 3-2</h5>
-                          <p>This is some placeholder content for the scrollspy page. Note that as you scroll down the page, the appropriate navigation link is highlighted. It’s repeated throughout the component example. We keep adding some more example copy here to emphasize the scrolling and highlighting.
-
-                            Keep in mind that the JavaScript plugin tries to pick the right element among all that may be visible. Multiple visible scrollspy targets at the same time may cause some issues.</p>
+                        <div id="edu">
+                          <h2>Education</h2> 
+                            <h4>Technical Communication, B.S. <em class="edu-minors">&#x2022 technology emphasis, minors in Music and Music Technology</em></h4>
+                            <h5>Iowa State University of Science and Technology &#x2022 2025</h5>
+                            <br>
+                          
+                          <div id="involve">
+                          <h4>Involvement</h4>
+                          <div class="entry" id="involve-1">
+                              <div class="box">
+                                <h5 class="title">KURE 88.5 Ames Alternative</h5>
+                                <h5 class="date">2022 - 2025</h5>
+                              </div>
+                                <div class="role">
+                                  <p>24 - 25</p>
+                                  <p>Production Directior</p>
+                                </div>
+                                <div class="role">
+                                  <p>22</p>
+                                  <p>Production Intern</p>
+                                </div>
+                              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                          </div>
+                          <div class="entry" id="involve-2">
+                              <div class="box">
+                                <h5 class="title">Groove Drumline Club</h5>
+                                <h5 class="date">2022 - 2025</h5>
+                              </div>
+                                <div class="role">
+                                  <p>24</p>
+                                  <p>Vice President</p>
+                                </div>
+                                <div class="role">
+                                  <p>23, 25</p>
+                                  <p>Equipment and Electronics Chair</p>
+                                </div>
+                              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                          </div>
+                          <div class="entry" id="involve-3">
+                              <div class="box">
+                                <h5 class="title">LASCASTLE Committee</h5>
+                                <h5 class="date">2025</h5>
+                              </div>
+                              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                          </div>    
+                          <div class="entry" id="involve-4">
+                              <div class="box">
+                                <h5 class="title">ISUCF'V'MB</h5>
+                                <h5 class="date"> 2022 - 2024</h5>
+                              </div>
+                              <div class="role">
+                                <p>23 - 24</p>
+                                <p>State Storm Drumline Leadership</p>
+                              </div>
+                              <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                          </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -172,7 +221,7 @@
                 <div class="about-left">
                     <h1>About Me</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+                      Hello! I'm Kate!
                     </p>
                 </div>
                 <div class="about-right">
