@@ -29,11 +29,20 @@ main {
     height: 50vh;
 }
 
+.skills {
+    height:auto;
+}
+
 .skills-grid {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
     
+}
+
+.skills-grid div {
+    padding: 1rem;
+    width: 242px;
 }
 .experience-container {
     height: 75vh;
@@ -61,17 +70,9 @@ main {
     grid-column-gap: 1rem;
 }
 
-@media screen and (max-width: 840px) {
-   .skills-grid {
-    flex-direction: column;
-    align-items: center;
-   }
-   .skills {
-    height: auto;
-   }
-}
 
-@media screen and (max-width: 840px) {
+
+@media screen and (max-width: 740px) {
    .exp-nav {
     display: none;
    }
@@ -79,4 +80,18 @@ main {
    .experience-container {
     width: auto;
    }
+
+   .skills {
+    height:auto;
+   }
+
+
+}
+
+@media screen and (max-width: 540px) {
+   .skills {
+    height: auto;
+    flex-direction: column;
+   }
+
 }
