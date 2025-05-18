@@ -36,6 +36,7 @@ main {
 .skills-grid {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
     
 }
@@ -73,7 +74,8 @@ main {
 
 
 @media screen and (max-width: 740px) {
-   .exp-nav {
+
+    .exp-nav {
     display: none;
    }
 
@@ -94,4 +96,10 @@ main {
     flex-direction: column;
    }
 
+}
+
+@media screen and (max-width: 440px) {
+   main {
+    padding: 0rem 1.6rem;
+    }   
 }
